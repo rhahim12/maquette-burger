@@ -1,19 +1,125 @@
 p {
-    color: red;
+    color:white;
+    
 }
 
 body {
-    background-color: lightblue;
+    margin: 0px
+
+
 }
+
+
 
 .hero-section{
+     background-color: rgb(207, 65, 65);
+    display: flex;
+    padding: 50px;
+
+h1{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    font-style: oblique ;
+
+  
+}
+
+
+p{
+    font-size: 40px;
+    display: flex;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    
+}
+}
+    
+.oui-oui{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-style: oblique;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
 
 }
 
-map section{
+.nn-nn{
+    color: white;
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
 
 }
 
-about section{
+.holo-section{
+   background-color: rgb(218, 140, 23);
+   display: flex;
+    align-items: center;
+   justify-content: center;
+   padding: 20px;
+   flex-direction: column;
+  
+}
+
+
+.reseaux>img{
+    width: 10%;
+}
+.reseaux{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zero-section{
+    background-color: rgb(230, 223, 160);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    
+}
+
+.zo{
+    font-size: 40px;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+
+.zi{
+    color: black;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-right: 50px;
+    padding-left: 50px;
 
 }
+
+.za{
+    color: rgb(66, 84, 243);
+    font-size: 40px;
+    display: flex;
+    justify-content: end;
+    text-align: left;
+    font-weight: bold;
+    padding-right: 50px;
+
+}
+
+
+   
+
+   
+
+
