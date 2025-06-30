@@ -12,15 +12,17 @@ body {
 
 
 .hero-section{
-     background-color: rgb(207, 65, 65);
+     background-color: #aa2720;
     display: flex;
     padding: 50px;
+    
 
 h1{
     font-size: 70px;
     color: rgb(255, 255, 255);
     align-items: center;
-    font-style: oblique ;
+    font-family: PT Serif;
+
 
   
 }
@@ -34,13 +36,18 @@ p{
     text-align: justify;
     
 }
+
+}
+
+.hero-section>img{
+    width: 1000px;
+
 }
     
 .oui-oui{
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 50px;
     font-style: oblique;
-    font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: center;
 
@@ -55,7 +62,7 @@ p{
 }
 
 .holo-section{
-   background-color: rgb(218, 140, 23);
+   background-color: #d26122;
    display: flex;
     align-items: center;
    justify-content: center;
@@ -75,8 +82,10 @@ p{
 }
 
 .zero-section{
-    background-color: rgb(230, 223, 160);
-    display: flex;
+    background-color: #f4e4b8;
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 10px;
     align-items: center;
     justify-content: center;
     text-align: justify;
@@ -85,16 +94,16 @@ p{
 
 .zo{
     font-size: 40px;
-    color: black;
+    color:#000000;
     text-align: left;
     font-weight: bold;
     padding-left: 50px;
-    padding-top: 50px;
+    
     
 }
 
 .zi{
-    color: black;
+    color: #404040;
     font-size: 80px;
     display: flex;
     justify-content: center;
@@ -107,15 +116,22 @@ p{
 }
 
 .za{
-    color: rgb(66, 84, 243);
+    color: rgb(0, 0, 0);
     font-size: 40px;
     display: flex;
     justify-content: end;
     text-align: left;
     font-weight: bold;
     padding-right: 50px;
+    
 
 }
+
+
+
+    
+
+
 
 
    
