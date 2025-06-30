@@ -1,32 +1,25 @@
-p {
-    color:white;
-    
-}
-
 body {
     margin: 0px
-
-
 }
-
-
 
 .hero-section{
      background-color: #aa2720;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 50px;
     
-
 h1{
-    font-size: 70px;
+    font-size: 9rem;       
     color: rgb(255, 255, 255);
-    align-items: center;
-    font-family: PT Serif;
-
-
-  
+    font-family:Bangers;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    padding-right: 35%;
+    
+ 
 }
-
 
 p{
     font-size: 40px;
@@ -40,7 +33,7 @@ p{
 }
 
 .hero-section>img{
-    width: 1000px;
+    width: 100%;
 
 }
     
@@ -71,7 +64,6 @@ p{
   
 }
 
-
 .reseaux>img{
     width: 10%;
 }
@@ -84,8 +76,8 @@ p{
 .zero-section{
     background-color: #f4e4b8;
     display: grid;
-    grid-template-columns: repeat(3, 2fr);
-    gap: 10px;
+    grid-template-columns:repeat(3,1fr); 
+    gap: 30px;
     align-items: center;
     justify-content: center;
     text-align: justify;
@@ -93,12 +85,11 @@ p{
 }
 
 .zo{
-    font-size: 40px;
+    font-size: 35px;
     color:#000000;
     text-align: left;
     font-weight: bold;
     padding-left: 50px;
-    
     
 }
 
@@ -110,21 +101,18 @@ p{
     align-items: center;
     text-transform: uppercase;
     font-weight: bold;
-    padding-right: 50px;
-    padding-left: 50px;
+    padding-left: 90px;
 
 }
 
 .za{
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 35px;
     display: flex;
     justify-content: end;
     text-align: left;
     font-weight: bold;
-    padding-right: 50px;
     
-
 }
 
 
