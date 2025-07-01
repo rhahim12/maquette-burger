@@ -1,5 +1,11 @@
+@media (max-width: 600px) {
+.hero-section {
+        grid-template-columns: 1fr; /* Une seule colonne sur les petits écrans */
+    }
+}
 body {
-    margin: 0px
+    margin: 0px;
+    margin-right: 0px;
 }
 
 .hero-section{
